@@ -1,0 +1,69 @@
+#HTML CODE
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+	<link rel="stylesheet" href = "style.css">
+	
+<body>
+    
+    <div class="container"> </div>
+	<ul>
+		<li><a href="project2.html">Flip Timer</a></li>
+		
+	  </ul>
+
+
+		<div class="clock">
+            
+			<h1 class="title"><span> COUNTDOWN  </span>TIMER</h1>
+				
+		<div>
+	 <div class="countdown">
+			
+			<div >
+				<p id="days" class="box" > 0 </p>
+				<span>Days</span></div>
+			<div>
+				<p id="hour" class="box"> 0 </p>
+				<span>Hours</span></div>
+			<div>	
+				<p id="mins" class="box"> 0 </p>
+				<span>Mins</span></div>
+            <div> 
+				<p id="sec" class="box"> 0 </p>
+			<span>Seconds</span>
+			</div>
+	 
+	</div>
+
+
+<div class="stop">
+	<button id="stop" class="button"> Stop </button>
+	</div>
+	<div class="start">
+	<button  id="start" class="show"> Start </button>
+	</div>
+	<div class="cal">
+	<button   id="reset"> Reset</button>
+	</div>
+	
+	<form>
+		<div class="table">
+		  <label class="label " for="start"> Date:</label>
+		  <input type="date" id="date" />
+		</div>
+		<br /><br />
+  <div class="table2">
+      <label class="label" for="appt"> Time:</label>
+      <input type="time" id="time" name="appt" />
+  </div>
+	</form>
+
+		
+<script src="project.js"></script>
+</body>
+</html> 
