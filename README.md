@@ -1,0 +1,292 @@
+# Countdown-Timer
+#CSS CODE
+
+
+*{
+	margin: 0px;
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 0px;
+	
+}
+
+body {
+
+	background-repeat: no-repeat;
+	background-position: top;
+	display:flex;
+	justify-content : center;
+	background-image:url(https://images.unsplash.com/photo-1553356084-58ef4a67b2a7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8Y29sb3J8ZW58MHx8MHx8fDA%3D);
+	background-size : cover;
+	padding-bottom: 60px;
+	position:absolute;
+	text-align:center;
+	}
+	
+    
+.container{
+
+position: absolute;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+background-color:rgba(0 ,0,0,0.5)
+width:100%;
+height: 100%;
+z-index: -1;
+}
+.title {
+	color:limegreen;
+	text-align: center;
+	margin-left: 40px;
+	margin-top: 0px;
+	margin-right: 80px;
+	width: 100%;
+	height: 100%;
+	font-weight:bold;
+	font-size : 80px;
+	letter-spacing : 3px;
+	line-height: 4rem;
+	background-color:transparent;
+	text-shadow: 4px 10px 10px red;
+}
+.countdown{
+	display: flex;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 69px;
+	margin-right: 0px;
+	}
+	
+.box{
+	font-size: 70px;
+	color: greenyellow;
+	}
+.title span{
+	display:block;
+	font-size:80px;
+	margin-top: 5px;
+	line-height: 10rem;
+	
+}
+.clock{
+	display:flex ;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	min-height: 100vh;
+	position:absolute;
+	margin-left: 1500px;
+
+}
+.countdown>div{
+	margin-top: 40px;
+	margin-right: 30px;
+	margin-bottom:100px;
+	border:2px solid #fff;
+	padding: 0px 20px;
+	border-radius: 12px;
+	box-shadow: 0px 2px 10px rgba(0 ,0,0,0.5);
+	 box-sizing: border border-box;
+	 font-size: 20px;
+	 font-weight: bold;
+	 min-width: 120px;
+	 text-align: center;
+	text-decoration: wavy;
+	font-style: italic;
+	color:#0074D9;
+	background-color:whitesmoke;
+	border-inline-color:rgb(96, 179, 96);
+	border-width: thick;
+	border-inline-start-color:fuchsia;
+	border-block-end-color:cyan;
+	border-block-start-color: coral;
+animation-name: animatecolor;
+animation-iteration-count: infinite;
+animation-duration: 2s;
+animation-timing-function: ease-in;
+}
+	
+@keyframes animatecolor{
+	from{color: #0074D9;}
+to{color: darkgoldenrod;}}
+
+ 
+.box:hover{
+	background-color:transparent;
+	color:chocolate;
+	font-weight: bold;
+	font-size: 60px;
+}
+
+.box{
+	animation-name: animatechange;
+	animation-timing-function: ease-in;
+	animation-iteration-count: infinite;
+	animation-duration: 2s;
+}
+
+/* .topnav {
+	background-color: #333;
+	overflow: hidden;
+  } */
+  
+ 
+  /* .topnav a {
+	float: left;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+  } */
+  
+  
+  
+  
+  
+/* .topnav a.active {
+	background-color: #04AA6D;
+	color: white;
+	font-weight: bold;
+  }
+.topnav a.button{ 
+	font-weight: bold;  
+	cursor: pointer;  */
+
+ .button{
+	width: 100px;
+	color: #0074D9;
+	font-size: 20px;
+	font-weight: bold;
+	border:2px solid greenyellow;
+	text-align: center;
+	border-radius: 15px;
+	position: absolute;
+	cursor: pointer;
+	margin-top: 333px;
+    margin-right: 300px;
+	margin-left: -15px;
+ }
+
+ .show{
+	width: 100px;
+	color: #0074D9;
+	font-size: 20px;
+	font-weight: bold;
+	border:2px solid greenyellow;
+	text-align: center;
+	border-radius: 15px;
+	position:absolute;
+	cursor: pointer;
+	left: 250px;
+	margin-top:-35px;
+	right:450px
+	
+	
+}
+.button:hover{
+	color: red;
+	background-color: antiquewhite;
+	box-shadow: 0 12px 16px 0 white;
+}
+
+.show:hover{
+	color: red;
+	background-color: antiquewhite;
+	box-shadow: 0 12px 16px 0 white;
+}
+
+.stop{
+	position: absolute;
+		left: 0px;
+		top: 200px;
+	   right: 10px;
+	}
+.start{
+		left: 0px;
+		top: 130px;
+	   right: 300px;
+	}
+	
+	
+	input {
+		font-size: 20px;
+		padding: 5px;
+		border-radius: 5px;
+		color:#333;
+		font-weight:500px;
+	}
+	input:hover{
+		color: red;
+	box-shadow: 0 12px 16px 0 white;
+
+	}
+
+	#time {
+		background-color:#FFFFFF;
+		color:black;
+		font-size: 20px;
+		width: 100px;
+		margin:0 , 10px;
+		
+	
+	}
+		.table {
+			margin-right: 300px;
+			margin-top: 80px;
+			margin-bottom: 0px;
+		}
+
+
+		.table2{
+			position:absolute;
+			margin-top: -80px;
+
+		margin-left: 500px;
+		}
+		
+		
+.cal{left: 0px;
+	top: 10px;
+   right: 300px;
+margin-bottom: 20
+}
+#reset{
+	width: 100px;
+	color: #0074D9;
+	font-size: 20px;
+	font-weight: bold;
+	border:2px solid greenyellow;
+	text-align: center;
+	border-radius: 15px;
+	position: absolute;
+	cursor: pointer;
+    margin-right: 300px;
+	margin-left: 140px;
+	margin-top: -40px;
+}
+#reset:hover{
+	background-color: antiquewhite;
+	box-shadow: 0 12px 16px 0 white;
+
+}
+.label{
+	color: cornsilk;
+	font-size: 22px;
+	font-weight: bold;
+}
+
+  
+  a {
+	display: block;
+	padding: 8px;
+	background-color: #dddddd;
+  }
+  li a {
+	display: block;
+	color: #000;
+	font-weight: bold;
+	padding: 8px 16px;
+	text-decoration: none;
+  }
